@@ -1,0 +1,90 @@
+@font-face {
+    font-family: mina;
+    src: url(./Mina-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background-size: 746px 514px;
+    background-color: #1E1E1E;
+    background-image: url(wrapper-background.png);
+    background-repeat: no-repeat;
+    background-position: 35% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    width:531px;
+    height: 621px;
+    background-color:rgba(7, 25, 34, 1);
+    border: 1px solid rgba(7, 25, 34, 1);
+    border-radius: 80px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.text{
+    color: rgba(255, 255, 255, 1);
+    font-family: mina;
+    font-size: 58px;
+    font-weight: 400;
+    margin-left: 200px;
+}
+
+.text1{
+    color: rgba(255, 255, 255, 1);
+    font-family: mina;
+    font-size: 58px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+label{
+    color: rgba(255, 255, 255, 1);
+    font-family: mina;
+    margin-left: 30px;
+}
+p{
+    color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+    font-family: mina;
+}
+form{
+    margin-left: 20px;
+}
+input[type="email"]{
+    width: 480px;
+    height:59px; 
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: rgba(217, 217, 217, 0.57);
+    color:rgba(217, 217, 217, 0.56);
+    padding: 29px;
+}
+input[type="Password"]{
+    width: 480px;
+    height:59px; 
+    background-color: rgba(217, 217, 217, 0.57);
+    border: 1px solid;
+    border-radius: 50px;
+    color:rgba(217, 217, 217, 0.56);
+    padding: 29px;
+
+}
+input[type="button"]{
+    width: 206px;
+    height: 59px;
+    background-color: rgba(219, 210, 205, 1);
+    border: 1px solid;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: mina;
+    text-align: center;
+    font-weight: 700;
+}
